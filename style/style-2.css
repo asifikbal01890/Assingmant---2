@@ -1,0 +1,131 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rubik&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1600px;
+    height: 2534px;
+    margin: 0 7%;
+}
+/* header styles */
+.container{
+    display: flex;
+    width: 1141px;
+    height: 646px;
+    margin: 50px 140px;
+    padding: 33px 79px 0 106px;
+    border-radius: 30px;
+    background-color: rgba(22, 22, 22, 1);
+    color: white;
+}
+.article{
+    padding-top: 31px;
+    margin-right: 24px;
+
+}
+.article h1 {
+    font-size: 70px;
+    line-height: 90px;
+}
+.live {
+    position: relative;
+    text-decoration: none;
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+    padding: 16px 25px;
+    border-radius: 5px;
+    top: 30px;
+}
+.banner-img{
+    height: 646px;
+   }
+ /* full section */  
+ .section{
+    margin: 130px 140px;
+    display: flex;
+ }
+/* manu section style */
+.section-1 {
+    background-color: 
+    rgba(22, 22, 22, 1);
+    width: 312px;
+    height: 312px;
+    border-radius: 5px;
+}
+.manu-section{
+    width: 252px;
+    height: 252px;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center
+}
+/* Common Styles for manu */
+.manu {
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    color: rgba(22, 22, 22, 1);
+    font-weight: bold;
+    font-size: 20px;
+    top: 25px;
+}
+#manu-1{
+    padding: 17px 39px;
+    background-color: 
+    rgba(221, 0, 0, 1);
+    color: white;
+}
+#manu-2{
+    padding: 17px 79px;
+}
+#manu-3{
+    padding: 17px 103px;
+}
+/* video section styles */
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 24px;
+}
+/*only one video styles */
+.thumbnail-info{
+    width: 250px;
+    height: 142px;
+    padding: 53px 30px;
+    margin-right: 24px;
+    margin-bottom: 24px; 
+    border-radius: 10px;
+    border: 1px solid rgb(164, 164, 164);
+    
+}
+.flaxible-flag{
+    display: flex;
+}
+.padding {
+    padding-right: 20px;
+}
+.text-align{
+    text-align: center;
+}
+/* footer section  */
+footer {
+    background-color: rgba(22, 22, 22, 1);
+    height: 444px;
+    color: white;
+}
+footer h1 {
+    padding: 130px 752px 50px 753px;
+    font-size: 40px;
+}
+hr {
+    width: 1320px;
+}
+.contact {
+    margin: 50px 351px 130px 351px;
+}
+.contact span {
+    padding-right: 45px;
+}
