@@ -8,7 +8,7 @@ body{
 /* header styles */
 .container{
     display: flex;
-    width: 1221px;
+    width: 1141px;
     height: 646px;
     margin: 50px 140px;
     padding: 33px 79px 0 106px;
@@ -40,6 +40,7 @@ body{
  /* full section */  
  .section{
     margin: 130px 140px;
+    display: flex;
  }
 /* manu section style */
 .section-1 {
@@ -80,4 +81,46 @@ body{
     rgba(221, 0, 0, 1);
     color: white;
 }
+/* video section styles */
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 24px;
+}
+/*only one video styles */
+.thumbnail-info{
+    width: 312px;
+    height: 362px;
+    margin-right: 24px;
+    margin-bottom: 24px; 
+    border-radius: 10px;
+    border: 1px solid rgb(164, 164, 164);
+    
+}
+#button {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
 
+}
+h3{
+    margin: 0;
+    padding-left: 20px;
+}
+.flaxible{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.icon {
+    padding-right: 30px;
+}
+.icon img {
+    padding-right: 10px;
+}
+    
