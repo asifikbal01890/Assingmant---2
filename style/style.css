@@ -126,6 +126,10 @@ h3{
 .icon img {
     padding-right: 10px;
 }
+/* hide Button */
+.visible{
+    display: none;
+}
 /* footer section  */
 footer {
     background-color: rgba(22, 22, 22, 1);
@@ -133,10 +137,12 @@ footer {
     color: white;
 }
 footer h1 {
-    padding: 130px 752px 50px 753px;
+    text-align: center;
+    padding: 130px 0px 50px 0px;
     font-size: 40px;
 }
 hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
     width: 1320px;
 }
 .contact {
@@ -190,7 +196,11 @@ hr {
         display: block;
         padding-top: 24px;
         padding-left: 30px;
-    } 
+    }
+    /* hide Button */
+    .visible{
+    display: none;
+} 
     /* footer section  */
     footer h1{
         padding: 24px 162px;
@@ -212,8 +222,104 @@ hr {
 }
 /* for tablet */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+    body{
+        width: auto;
+        margin: 0;
+    }
+    /* header styles */ 
+    .container{
+        width: 734px;
+        height: 370px;
+        margin: 50px;
+        padding: 28px 38px 21px 38px;
+    } 
+    .article{
+        text-align: center;
+        padding: 7px 2px 30px 40px;
+        text-align: start;
     
+    }
+    .article h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .article span {
+        display: none;
+    }
+    .banner-img{
+        width: 323px;
+        height: 340px;
+        padding-top: 51px;
+       } 
+       /* full section */      
+       .section{
+        margin: 30px;
+        display: block;
+       }
+    /* manu section style */
+    .section-1 {
+        background-color: white;
+        width:854px;
+        height: 150px;
+        
+    }
+    .manu-section{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+    }
+    .manu{
+        margin-right: 25px;
+        border: 1px solid gray;
+    }
+    /* video section styles */
+    .videos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /*only one video styles */
+    .thumbnail-info{
+        width: 357px;
+        height: 414.21px;
+        margin-right: 24px;
+        margin-bottom: 24px; 
+        border-radius: 10px;
+        margin-left: 20px;
+        border: 1px solid rgb(164, 164, 164); 
+    }
+    .thumbnail-info img {
+        width: 357px;
+        height: 200.24px; 
+    } 
+    .icon img {
+        width: 25px;
+        height: 25px; 
+    }
+    .hidden {
+        display: none;
+    }
+        /* hide Button */
+    #visible{
+        display: inline-table;
+        margin: 30px 352px 65px 352px ;
+    }
+    /* footer section  */
+    footer h1{
+        padding: 24px 162px;
+        font-size: 24px; 
+    }
+    hr{
+        width: 734px;
+        
+    }
+    .contact{
+        margin: 30px 100px;
+        padding-left: 40px;
+    }
+    .display{
+        display: inline-block;
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+   
 }
-
-
-    
