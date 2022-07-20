@@ -145,5 +145,75 @@ hr {
 .contact span {
     padding-right: 45px;
 }
+/* Media Queries */
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    body{
+        width: auto;
+    }
+   /* header styles */
+    .container{
+        width: 334px;
+        height: 472px;
+        margin: 44px 20px;
+        display: block;
+        padding: 28px 38px 21px 38px;
+    }
+    .article{
+        text-align: center;
+        padding: 0;
+    
+    }
+    .article h1 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .article span {
+        display: none;
+    }
+    .banner-img{
+        padding: 60px;
+        height: 245px;
+       }
+     /* full section */  
+     .section {
+         display: block;
+         padding: 20px 38px 21px 38px;
+         margin: 0;    
+    }
+     /* manu section style */
+    .section-1{
+        margin-left: 30px;
+    }
+    /* video section styles */
+    .videos {
+        display: block;
+        padding-top: 24px;
+        padding-left: 30px;
+    } 
+    /* footer section  */
+    footer h1{
+        padding: 24px 162px;
+        font-size: 24px; 
+    }
+    hr{
+        width: 335px;  
+    }
+    .contact {
+        margin: 14px;
+        padding-left: 0;
+    }
+    .contact span{
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+}
+/* for tablet */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    
+}
+
 
     
