@@ -1,4 +1,38 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rubik&display=swap');
+
+/* Common Styles */
 body{
-    width: 1600px;
-    height: 2534px;
+    font-family: 'Poppins', sans-serif;
 }
+/* header styles */
+.container{
+    display: flex;
+    width: 1221px;
+    height: 646px;
+    margin: 50px 140px;
+    padding: 33px 79px 0 106px;
+    border-radius: 30px;
+    background-color: rgba(22, 22, 22, 1);
+    color: white;
+}
+.article{
+    padding-top: 31px;
+    margin-right: 24px;
+
+}
+.article h1 {
+    font-size: 70px;
+    line-height: 90px;
+}
+.live {
+    text-decoration: none;
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+.banner-img{
+    height: 646px;
+   }
+
