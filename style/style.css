@@ -4,6 +4,9 @@
 /* Common Styles */
 body{
     font-family: 'Poppins', sans-serif;
+    width: 1600px;
+    height: 2534px;
+    margin: 0 7%;
 }
 /* header styles */
 .container{
@@ -123,4 +126,24 @@ h3{
 .icon img {
     padding-right: 10px;
 }
+/* footer section  */
+footer {
+    background-color: rgba(22, 22, 22, 1);
+    height: 444px;
+    color: white;
+}
+footer h1 {
+    padding: 130px 752px 50px 753px;
+    font-size: 40px;
+}
+hr {
+    width: 1320px;
+}
+.contact {
+    margin: 50px 351px 130px 351px;
+}
+.contact span {
+    padding-right: 45px;
+}
+
     
