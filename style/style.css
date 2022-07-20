@@ -26,13 +26,58 @@ body{
     line-height: 90px;
 }
 .live {
+    position: relative;
     text-decoration: none;
     background-color: rgba(221, 0, 0, 1);
     color: white;
     padding: 16px 25px;
     border-radius: 5px;
+    top: 30px;
 }
 .banner-img{
     height: 646px;
    }
+ /* full section */  
+ .section{
+    margin: 130px 140px;
+ }
+/* manu section style */
+.section-1 {
+    background-color: 
+    rgba(22, 22, 22, 1);
+    width: 312px;
+    height: 312px;
+    border-radius: 5px;
+}
+.manu-section{
+    width: 252px;
+    height: 252px;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center
+}
+/* Common Styles for manu */
+.manu {
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    color: rgba(22, 22, 22, 1);
+    font-weight: bold;
+    font-size: 20px;
+    top: 25px;
+}
+#manu-1{
+    padding: 17px 39px;
+}
+#manu-2{
+    padding: 17px 79px;
+}
+#manu-3{
+    padding: 17px 103px;
+    background-color: 
+    rgba(221, 0, 0, 1);
+    color: white;
+}
 
