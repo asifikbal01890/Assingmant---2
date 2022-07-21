@@ -37,6 +37,9 @@ body{
     border-radius: 5px;
     top: 30px;
 }
+.fa-thin{
+
+}
 .banner-img{
     height: 646px;
    }
@@ -151,6 +154,11 @@ hr {
 .contact span {
     padding-right: 45px;
 }
+.icons{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
 /* Media Queries */
 /* Mobile Device */
 @media only screen and (max-width:688px) {
@@ -202,6 +210,9 @@ hr {
     display: none;
 } 
     /* footer section  */
+    footer {
+        height: 500px;
+    }
     footer h1{
         padding: 24px 162px;
         font-size: 24px; 
@@ -217,10 +228,19 @@ hr {
         display: block;
         text-align: center;
         padding-top: 25px;
+        padding-left: 45px;
+        
+    }
+    .icons{
+        font-size: 30px;
+       
+      
     }
 
 }
-/* for tablet */
+/*------------------
+     for tablet
+ ------------------- */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     body{
         width: auto;
