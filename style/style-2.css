@@ -37,6 +37,10 @@ body{
     border-radius: 5px;
     top: 30px;
 }
+.live:hover {
+    font-size: 20px;
+
+}
 .banner-img{
     height: 646px;
    }
